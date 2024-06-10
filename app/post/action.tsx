@@ -7,7 +7,6 @@ import { z } from "zod";
 import { nanoid } from "nanoid";
 import { PostComponent } from "./post-component";
 import {DeepPartial, generateObject} from "ai";
-import { jokeSchema } from "./joke";
 
 export interface ServerMessage {
   role: "user" | "assistant";
